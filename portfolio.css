@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(255, 255, 255);
+    z-index: 0;
+    margin: 0;
+}
+
+.pudim {
+    top: -90px;
+    position: relative;
+    color: rgb(255, 185, 235);
+    text-align: center;
+    font-family: "minhafonte", sans-serif;
+}
+
+.pudim:hover {
+    color: white;
+}
+
+.secao1 {
+    position: relative;
+    font-size: 40px; 
+}
+
+.menu {
+    top: 20px;
+    position: relative;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    font-weight:bold;
+    word-spacing: 30px;
+    z-index: 10;
+}
+
+.menucolor {
+    color:rgb(255, 185, 235);
+}
+
+.menucolor:hover {
+    color: white;
+}
+
+.triangulo {
+    top: -100px;
+    background-color: rgb(253, 249, 204);
+    padding: 250px;
+    width:auto;
+    height: 70px;
+    z-index: 1;
+}
+
+.secao2 {
+    position: absolute;
+    top: 600px;
+}
+
+.secao3 {
+    position: relative;
+    top: 700px;
+    z-index: 1;
+}
+
+ @font-face {
+    font-family: "minhafonte";
+    src: url(fontes/A.otf);
+ }
+
+ @font-face {
+    font-family: "minhafonte2";
+    src:url(fontes/Roboto.ttf);
+ }
+ a {
+    text-decoration: none;
+ }
+
+ .sobre {
+    position:relative;
+    text-align: center;
+    color: rgb(255, 185, 235);
+    font-size: 35px;
+    top: -100px;
+    font-family:;
+ }
+
+ .perfil {
+    position: relative;
+    font-size: 35px;
+    color:  rgb(255, 185, 235);
+    top:-90px;
+ }
+
+ .texto {
+    width:50%;
+    padding: 40px;
+    float: right;
+    line-height: 40px;
+    left: -60px;
+ }
+
+ .sobremim2 {
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    top: -20px;
+    color: rgb(255, 185, 235);
+    font-family: "minhafonte", sans-serif;
+ }
+
+ .pusheen {
+    position: relative;
+    right: -30px;
+    top: -190px;
+    width: 580px;
+    height:580px;
+
+ }
+
+ html {
+      scroll-behavior: smooth;
+       scroll-padding-top: 80px;
+ }
+
+ .contato {
+    position: relative;
+    text-align: center;
+    font-size:35px;
+    top:-20px;
+    z-index: 10;
+    font-family: "minhafonte", sans-serif;
+    color: rgb(255, 185, 235);
+ }
+
+ .partecontato {
+    background-color:rgb(253, 249, 204);
+    padding:80px;
+    height: -900px;
+    top: 500px;
+ }
